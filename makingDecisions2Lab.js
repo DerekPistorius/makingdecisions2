@@ -66,21 +66,21 @@ var score = 74
 */
 
 //Code Here
-if (score >= 90){
-  console.log ('A')
-}
-if (score >= 80 && score < 90){
-  console.log ('B')
-}
-if (score  >= 70 && score < 80){
-  console.log ('C')
-}
-if (score >= 60 && score < 70){
-  console.log ('D')
-}
-if (score <= 59){
-  console.log ('F')
-}
+// if (score >= 90){
+//   console.log ('A')
+// }
+// if (score >= 80 && score < 90){
+//   console.log ('B')
+// }
+// if (score  >= 70 && score < 80){
+//   console.log ('C')
+// }
+// if (score >= 60 && score < 70){
+//   console.log ('D')
+// }
+// if (score <= 59){
+//   console.log ('F')
+// }
 
 ////////// Intermediate Problems //////////
 
@@ -95,6 +95,10 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 */
 
 //Code Here
+var someNum = (myFavoriteNumbers[5])
+  console.log (someNum)
+  //Because the last value is the fith value you could also use the .pop() command and return 24
+
 
 
 ////////// PROBLEM 7 //////////
