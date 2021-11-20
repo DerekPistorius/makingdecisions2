@@ -34,8 +34,8 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
-for (let i = 0; i < family.length; i++ )
-console.log (family)
+// for (let i = 0; i < family.length; i++ )
+// console.log (family)
 
 
 
@@ -51,8 +51,9 @@ let evensArr = []
 */
 
 //Code Here
-
-
+// for (let i = 0; i < nums.length; i++){
+//   console.log(nums)
+// }
 
 ////////// PROBLEM 5 //////////
 
@@ -65,7 +66,21 @@ var score = 74
 */
 
 //Code Here
-
+if (score >= 90){
+  console.log ('A')
+}
+if (score >= 80 && score < 90){
+  console.log ('B')
+}
+if (score  >= 70 && score < 80){
+  console.log ('C')
+}
+if (score >= 60 && score < 70){
+  console.log ('D')
+}
+if (score <= 59){
+  console.log ('F')
+}
 
 ////////// Intermediate Problems //////////
 
