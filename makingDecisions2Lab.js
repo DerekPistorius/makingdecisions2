@@ -7,8 +7,8 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
-var firstItem = arr[0]
-console.log(firstItem)
+// var firstItem = arr[0]
+// console.log(firstItem)
 
 
 
@@ -18,6 +18,10 @@ console.log(firstItem)
 */
 
 //Code Here
+
+var lastItemRemoved = arr.pop()
+  console.log (arr)
+  console.log (lastItemRemoved) //did this for my own testing
 
 ////////// PROBLEM 3 //////////
 
