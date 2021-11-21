@@ -87,7 +87,7 @@ var score = 74
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24];
+var myFavoriteNumbers = [4,8,12,16,20,24,8,9];
 // Do not edit the code above.
 
 /*
@@ -96,7 +96,7 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 
 //Code Here
 var someNum = (myFavoriteNumbers[5])
-  console.log (someNum)
+//   console.log (someNum)
   //Because the last value is the fith value you could also use the .pop() command and return 24
 
 
@@ -107,6 +107,27 @@ var someNum = (myFavoriteNumbers[5])
 // Use an if statement to check the length of the 'myFavoriteNumbers' array. If it's less than 7, log 'There are not enough elements in this array' to the console. If the length is more than 7, reassign the value of 'someNum' to the value of the 7th element in the array. (Hint: how can you make sure that your code works for exactly 7 elements? What index do you use to get the 7th element?)
 
 //Code Here
+// var lengthcheck = (myFavoriteNumbers.length)
+// console.log(lengthcheck)
+
+if (i = myFavoriteNumbers.length, i < 7) {
+console.log('There are not enough elements in this array')
+} else if (i = myFavoriteNumbers.length, i > 7) { 
+someNum = myFavoriteNumbers[7]
+  console.log(someNum)
+} else {
+  console.log('your code is broken')
+}
+
+//having trouble with the last part of this question, where it refers to making sure it only runs at exactly 7. When I use the === i get message undefined, when I use > the code runs??
+//Would love to know the answer to that one
+
+
+
+
+
+
+
 
 
 ////////// PROBLEM 8 //////////
