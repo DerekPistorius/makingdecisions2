@@ -110,14 +110,14 @@ var someNum = (myFavoriteNumbers[5])
 // var lengthcheck = (myFavoriteNumbers.length)
 // console.log(lengthcheck)
 
-if (i = myFavoriteNumbers.length, i < 7) {
-console.log('There are not enough elements in this array')
-} else if (i = myFavoriteNumbers.length, i > 7) { 
-someNum = myFavoriteNumbers[7]
-  console.log(someNum)
-} else {
-  console.log('your code is broken')
-}
+// if (i = myFavoriteNumbers.length, i < 7) {
+// console.log('There are not enough elements in this array')
+// } else if (i = myFavoriteNumbers.length, i > 7) { 
+// someNum = myFavoriteNumbers[7]
+//   console.log(someNum)
+// } else {
+//   console.log('your code is broken')
+// }
 
 //having trouble with the last part of this question, where it refers to making sure it only runs at exactly 7. When I use the === i get message undefined, when I use > the code runs??
 //Would love to know the answer to that one
@@ -141,6 +141,7 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 //Code Here
 
 
+
 ////////// PROBLEM 9 //////////
 // Do not edit the code below.
 var letters = ['A', 'B', 'C', 'D', 'E'];
@@ -151,6 +152,10 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
+
+for (i = letters.length -1; i >=0; i--){
+  console.log(letters[i])
+}
 
 
 ////////// Advanced Problems //////////
